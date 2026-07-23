@@ -1,0 +1,12 @@
+---
+---
+@charset "utf-8";
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* 强制所有屏幕尺寸下根字号为 16px（直接粘贴你写的那段规则） */
+html { font-size: 16px; }
+
+@media (min-width: 48em) { html { font-size: 16px; } }
+@media (min-width: 64em) { html { font-size: 16px; } }
+@media (min-width: 80em) { html { font-size: 16px; } }
